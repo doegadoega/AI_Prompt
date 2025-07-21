@@ -1,0 +1,33 @@
+# 無効にするルール
+disabled_rules:
+- trailing_whitespace
+- line_length
+- function_body_length
+- type_body_length
+- file_length
+- identifier_name
+
+# デフォルト無効のルールのうち、有効にするもの
+opt_in_rules:
+- empty_count
+- force_unwrapping
+- implicitly_unwrapped_optional
+- overridden_super_call
+- redundant_nil_coalescing
+- sorted_imports
+- unneeded_parentheses_in_closure_argument
+
+# 監視するディレクトリー
+included:
+- Sources
+- AppDelegate.swift
+- SceneDelegate.swift
+
+# 除外するディレクトリー
+excluded:
+- Pods
+- Carthage
+- .build
+
+function_parameter_count: 10
+line_length: 500

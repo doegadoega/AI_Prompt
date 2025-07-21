@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AI_Prompt}",
+            "name": "Debug AI_Prompt",
+            "program": "${workspaceFolder:AI_Prompt}/.build/debug/AI_Prompt",
+            "preLaunchTask": "swift: Build Debug AI_Prompt"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AI_Prompt}",
+            "name": "Release AI_Prompt",
+            "program": "${workspaceFolder:AI_Prompt}/.build/release/AI_Prompt",
+            "preLaunchTask": "swift: Build Release AI_Prompt"
+        }
+    ]
+}
